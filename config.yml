@@ -1,0 +1,19 @@
+---
+
+config:
+  - name: time1.google.com
+    server: 8.8.8.8
+    port: 53
+    match: "216.239.35.0"
+  - name: time2.google.com
+    server: 8.8.8.8
+    port: 53
+    match: "216.239.35.4"
+  - name: time3.google.com
+    server: 8.8.8.8
+    port: 53
+    match: "216.239.35.8"
+  - name: time4.google.com
+    server: 8.8.8.8
+    port: 53
+    match: "216.239.35.12"
